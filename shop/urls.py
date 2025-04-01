@@ -5,6 +5,5 @@ urlpatterns = [
     path('about/', about_view, name='about'),
     path('', product_list, name='product_list'),
     path('product/<int:pk>/', product_detail, name='product_detail'),  # Обрати внимание на этот путь
-    
-]
+    ]
 
